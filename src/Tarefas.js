@@ -4,7 +4,7 @@ import {FontAwesome} from '@expo/vector-icons'
 export default function Tarefa({data,deleteItem}){
 
   return (
-//nicolas
+
     <View style={styles.container}>
       <TouchableOpacity style={styles.icon} onPress={deleteItem}>
           <FontAwesome name="trash" size={20} color="#22272e"  />

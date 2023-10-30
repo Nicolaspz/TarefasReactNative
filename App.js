@@ -42,6 +42,7 @@ function handdle(){
     <TextInput
     placeholder='Insira a tarefa'
     style={styles.input}
+    value={tarefa}
     onChangeText={(text)=>setTarefa(text)}
 
     />
